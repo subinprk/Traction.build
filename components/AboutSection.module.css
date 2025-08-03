@@ -1,0 +1,24 @@
+.aboutSection {
+  background-color: var(--surface);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-16) var(--spacing-8);
+  box-shadow: var(--shadow);
+}
+
+.headline {
+  font-family: var(--font-family-heading);
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  color: var(--foreground);
+  max-width: 650px;
+}
+
+.body {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: var(--muted-foreground);
+  max-width: 700px;
+  margin-top: var(--spacing-4);
+}
